@@ -1,0 +1,561 @@
+.main{
+  width: 100%;
+}
+.containerr{
+  width: 1380px;
+  margin: 0 auto;
+}
+ul{
+  padding: 0;
+}
+.content-header-block{
+  background-image: url("src/assets/Images/Layer 1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 220px 0 130px;
+}
+.title-page-about-us{
+  width: 100%;
+}
+.title-about-us{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #06295E;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+.content-about-us-page{
+  width: 100%;
+  margin: 100px 0;
+}
+.content-our-history h2{
+  margin: 0 0 50px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #000000;
+}
+.div-blocks-our-history{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.div-texts-our-history{
+  width: 51%;
+}
+.div-images-our-history{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.div-images-our-history div:first-child{
+  margin-right: 30px;
+}
+.div-texts-our-history p{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+  letter-spacing: 1px;
+  color: #000000;
+}
+.div-content-our-feature{
+  width: 100%;
+  margin: 100px 0;
+}
+.title-our-feature{
+  margin: 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #000000;
+  text-align: center;
+}
+.div-blocks-our-feature{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.block-our-feature{
+  background: #FFFFFF;
+  border: 1px solid #06295E;
+  border-radius: 30px 0;
+  width: 30%;
+
+}
+.div-texts-blocks-our-feature{
+  padding: 20px 35px;
+}
+.div-texts-blocks-our-feature h3{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  margin: 0;
+  color: #000000;
+  width: 70%;
+}
+.div-texts-blocks-our-feature p{
+  margin: 12px 0 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+.div-img-blocks-our-feature{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.div-content-teachers h2{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  margin: 0 0 50px;
+  letter-spacing: 1px;
+  color: #000000;
+  text-align: center;
+
+}
+.div-img-teacher img{
+  width: 430px;
+  height: 450px;
+  object-fit: cover;
+}
+::ng-deep .carousel-indicators [data-bs-target] {
+  background-color: black !important;
+}
+::ng-deep .carousel-indicators{
+  margin-bottom: -6rem;
+}
+.div-teachers-images-description{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+::ng-deep .carousel-control-prev-icon{
+  display: none;
+}
+::ng-deep .carousel-control-next-icon{
+  display: none;
+}
+.li-teachers-description{
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 36px;
+}
+.div-texts-description-teachers{
+  width: 55%;
+}
+.div-texts-description-teachers h4{
+  margin: 0 0 40px 0;
+  text-align: left;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #333333;
+}
+.div-texts-description-teachers p{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  margin: 0;
+  letter-spacing: 1px;
+  color: #333333;
+}
+.li-teachers-description span{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #333333;
+}
+.li-teachers-description img{
+  margin-right: 26px;
+}
+.content-students{
+  width: 100%;
+  margin-top: 250px;
+}
+.title-students-page{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #000000;
+}
+.div-student-description{
+  width: 100%;
+  padding: 55px;
+  background: #FFFFFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 70px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+.div-imgae-student{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.div-imgae-student h5{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  margin-top: 43px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333333;
+
+}
+.div-description-student{
+  margin-left: 35px;
+  width: 65%;
+}
+.div-description-student p{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 39px;
+  letter-spacing: 1px;
+  margin: 0;
+  width: 80%;
+  color: #4F4F4F;
+}
+.li-teacher-two{
+  margin: 15px 0 0  0 !important;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.li-teacher-two img{
+  margin-right: 26px;
+}
+.li-teacher-two span{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 1px;
+  color: #333333;
+}
+.title-teacher-two{
+  margin: 0 0 15px 0 !important;
+}
+.span-more{
+  font-family: 'Segoe UI' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  line-height: 30px !important;
+  letter-spacing: 1px !important;
+  text-transform: capitalize !important;
+  color: #06295E !important;
+  cursor: pointer;
+}
+.div-more-mat-menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.div-more-mat-menu img{
+  margin-right: 26px;
+}
+::ng-deep .mat-menu-panel{
+  max-width: 850px !important;
+}
+@media screen and  (max-width: 1400px){
+  .containerr{
+    width: 1200px;
+  }
+  .div-images-our-history div:first-child{
+    margin-right: 20px;
+  }
+}
+@media screen and  (max-width: 1280px){
+  .containerr{
+    width: 95%;
+  }
+  .div-blocks-our-feature{
+    flex-wrap: wrap;
+  }
+  .block-our-feature{
+    width: 400px;
+    margin-bottom: 30px;
+  }
+  .div-texts-our-history{
+    margin-right: 40px;
+  }
+  .div-texts-our-history p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .div-teachers-images-description{
+    width: 100%;
+  }
+  .li-teachers-description span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .div-img-teacher{
+    margin-right: 25px;
+  }
+
+  .div-texts-description-teachers h4 {
+    margin: 0 0 15px 0;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .div-texts-description-teachers  p{
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .li-teachers-description {
+    margin-top: 16px;
+  }
+  .div-texts-description-teachers{
+    height: 430px;
+    overflow-y: auto;
+  }
+}
+@media screen and  (max-width: 1080px){
+  .content-about-us-page{
+    margin-top: 0;
+  }
+  .containerr{
+    width: 95%;
+  }
+  .div-blocks-our-history{
+    flex-direction: column-reverse;
+    justify-content: center;
+
+  }
+  .div-images-our-history{
+    width: 70%;
+  }
+  .div-texts-our-history{
+    width: 90%;
+    margin: 25px 0 0;
+
+  }
+  .div-texts-our-history p {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .div-student-description {
+    width: 100%;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0 0 10px rgb(0 0 0 / 25%);
+    border-radius: 70px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 25px;
+  }
+  .div-description-student p {
+    font-size: 14px;
+    line-height: 22px;
+    width: 100%;
+  }
+}
+@media screen and  (max-width: 841px){
+  .div-images-our-history div img:nth-child(2){
+    display: none;
+  }
+
+}
+@media screen and  (max-width: 750px){
+  .content-header-block{
+    padding: 110px 0 85px;
+  }
+  .div-images-our-history{
+    width: 100%;
+  }
+  .div-images-our-history div:first-child{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .div-images-our-history div:nth-child(2){
+    display: none;
+  }
+  .div-texts-our-history{
+    width: 90%;
+  }
+  .div-texts-our-history p {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .div-content-our-feature{
+    margin-bottom: 35px;
+  }
+  .div-blocks-our-feature{
+    justify-content: center;
+  }
+  .block-our-feature{
+    margin-bottom: 25px;
+  }
+  .div-teachers-images-description{
+    width: 100%;
+  }
+  .li-teachers-description span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .div-img-teacher{
+    margin-right: 25px;
+  }
+  ::ng-deep .mat-menu-panel {
+    max-width: 550px !important;
+    overflow-x: auto !important;
+  }
+}
+@media screen and  (max-width: 650px) {
+  .content-about-us-page{
+    margin-bottom: 35px;
+  }
+  .content-header-block {
+    padding: 100px 0 50px;
+  }
+
+  .content-our-history h2 {
+    margin: 0 0 20px;
+  }
+
+  .div-images-our-history div:first-child img {
+    width: 300px;
+    object-fit: cover;
+  }
+
+  .div-images-our-history div:first-child {
+    display: block;
+    text-align: center;
+  }
+
+  .div-images-our-history div:first-child {
+    margin-right: 0;
+  }
+
+  .div-teachers-images-description {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .div-img-teacher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .div-img-blocks-our-feature img {
+    width: 300px;
+    object-fit: cover;
+  }
+
+  .div-img-teacher img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  ::ng-deep .carousel-indicators {
+    margin-bottom: -1rem;
+  }
+
+  .content-students {
+    margin-top: 100px;
+  }
+
+  .block-our-feature {
+    width: 300px;
+  }
+
+  .div-texts-description-teachers {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .div-student-description {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 0;
+  }
+
+  .div-description-student {
+    margin: 0;
+    width: 100%;
+  }
+
+  .div-texts-our-history p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .title-our-feature{
+    font-size: 20px;
+  }
+  .div-texts-blocks-our-feature h3{
+    font-size: 18px;
+    line-height: 20px;
+    width: 100%;
+  }
+  .div-imgae-student h5 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+  }
+}

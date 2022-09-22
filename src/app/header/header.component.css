@@ -1,0 +1,144 @@
+.main{
+  width: 100%;
+  padding: 29px 0;
+  position: absolute;
+  top: 0;
+}
+.containerr{
+  width: 1380px;
+  margin: 0 auto;
+}
+.content-header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ul{
+  padding: 0;
+}
+.li_menu{
+  list-style-type: none;
+  display: inline-block;
+}
+
+.menu ul .li_menu:nth-child(-n+4){
+  margin-right: 26px;
+}
+.link-menu{
+  text-decoration: none !important;
+  font-family: 'Segoe UI' !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #06295E !important;
+}
+.button-reg{
+  background: #06295E;
+  border-radius: 0 20px;
+  border: none;
+  color: white !important;
+  padding: 11px 27px;
+}
+.button-reg .link-menu {
+  text-decoration: none !important;
+  font-family: 'Segoe UI' !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: white !important;
+}
+.active{
+  border-bottom: 2px solid #06295E;
+  padding-bottom: 8px;
+}
+.div-icon-dropdown-menu{
+  display: none;
+}
+.div-icon-dropdown-menu div{
+  width: 30px;
+  height: 3px;
+  background-color: #06295E;
+}
+.div-icon-dropdown-menu div:nth-child(2){
+  margin: 5px 0;
+}
+.div-icon-close{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.li-dropdown-menu{
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+.div-menu-mobile{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+@media screen and (max-width: 1400px){
+  .containerr{
+    width: 1180px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1200px){
+  .containerr{
+    width: 980px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1000px){
+  .containerr{
+    width: 780px;
+    margin: 0 auto;
+  }
+  .ul-menu{
+    display: none;
+  }
+  .div-icon-dropdown-menu{
+    display: block;
+  }
+}
+@media screen and (max-width: 800px){
+  .containerr{
+    width: 95%;
+    margin: 0 auto;
+  }
+  .main{
+    padding: 15px 0;
+  }
+
+}
+@media screen and (max-width: 600px){
+  .containerr{
+    width: 95%;
+    margin: 0 auto;
+  }
+
+}
+@media screen and (max-width: 550px){
+  .main{
+    padding: 8px 0;
+  }
+  .containerr{
+    width: 98%;
+    margin: 0 auto;
+  }
+
+}
+@media screen and (max-width: 320px){
+  .containerr{
+    width: 98%;
+    margin: 0 auto;
+  }
+
+}
+

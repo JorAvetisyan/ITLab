@@ -1,0 +1,1127 @@
+<app-header></app-header>
+<div class="main">
+  <div class="content-lessons-page">
+    <div class="containerr">
+      <div class="div-content-lessons-page-header">
+        <div class="div-title-lessons">
+          <h2>
+            Դասընթացներ
+          </h2>
+        </div>
+        <div class="div-filter-timer-page-lessons">
+          <div class="div-filter" mat-button [matMenuTriggerFor]="menu">
+            <span>Տեսակավորել</span>
+            <img src="assets/Images/Group 1311.png" alt="No image">
+          </div>
+          <div class="div-timer" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <span>Ժամանակացույց</span>
+          </div>
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item class="btn-filter">Ըստ ուսուցման ձևի </button>
+            <button mat-menu-item class="btn-filter">Ըստ ժամանակի </button>
+            <button mat-menu-item class="btn-filter">Ըստ պահանջվածության</button>
+          </mat-menu>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="div-modal-time">
+                    <div class="div-containerr-modal">
+                      <div class="div-icon-close">
+                        <h2>
+                          Ժամանակացույց
+                        </h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="div-content-modal-timer">
+                        <div class="div-calendar-modal-timer">
+                          <mat-card class="demo-inline-calendar-card">
+                            <mat-calendar [(selected)]="selected"></mat-calendar>
+                          </mat-card>
+                          <div class="div-buttons-modal-calendar">
+                            <button>Clear</button>
+                            <button>Apply</button>
+                          </div>
+                        </div>
+
+                        <div class="div-texts-modal-timer">
+                            <p>
+                              Մայիս 3, 2022թ․
+                            </p>
+                          <div class="div-description-timer">
+                            <span>
+                              Այսօր սպասվում է բաց դաս "Ծրագրավորման հիմունքներ" դասընթացի։
+                            </span>
+                           <span>
+                              Սիրով սպասում ենք մեր կենտրոնում ժամը 13։00։
+                           </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div-blocks-lessons">
+          <mat-tab-group headerPosition="below">
+            <mat-tab label="1">
+              <div class="div-content-carousel-lessons">
+                <div class="div-block-1">
+                    <div class="div-image-carousel">
+                      <img src="assets/Images/img1.png" alt="No image">
+                    </div>
+                    <div class="div-texts">
+                      <div class="div-date-blocks-carousel">
+                        <div class="div-lesson-date">
+                          <div class="div-lesson-date">
+                            <div class="div-lesson-time">
+                              <img src="assets/Images/asdad.png" alt="No image">
+                              <h6>30 դաս</h6>
+                            </div>
+                            <div class="div-date-lessons">
+                              <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                              <h6>20․05․2022</h6>
+                            </div>
+                          </div>
+                        </div>
+                        <h4 class="title-price">
+                          30.000 AMD
+                        </h4>
+                        <p class="description-lesson">
+                          PHP FULL STACK COURSE
+                        </p>
+                        <p class="content-description-lesson">
+                          Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                        </p>
+                        <div class="div-button-more">
+                          <button>
+                            <a routerLink="/about-course-php">
+                              Տեսնել ավելին
+                            </a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="div-block-1">
+                  <div class="div-image-carousel">
+                    <img src="assets/Images/kisspng-international-student-study-skills-higher-educatio-college-student-5aeb585235a651 1.png" alt="No image">
+                  </div>
+                  <div class="div-texts">
+                    <div class="div-date-blocks-carousel">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-date">
+                          <div class="div-lesson-time">
+                            <img src="assets/Images/asdad.png" alt="No image">
+                            <h6>30 դաս</h6>
+                          </div>
+                          <div class="div-date-lessons">
+                            <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                            <h6>20․05․2022</h6>
+                          </div>
+                        </div>
+                      </div>
+                      <h4 class="title-price">
+                        30.000 AMD
+                      </h4>
+                      <p class="description-lesson">
+                        JavaScript FULL STACK COURSE
+                      </p>
+                      <p class="content-description-lesson">
+                        Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                      </p>
+                      <div class="div-button-more">
+                        <button>
+                          <a routerLink="/about-course-javascript">
+                            Տեսնել ավելին
+                          </a>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="div-block-1">
+                  <div class="div-image-carousel">
+                    <img src="assets/Images/5a38462fc548b3 1.png" alt="No image">
+                  </div>
+                  <div class="div-texts">
+                    <div class="div-date-blocks-carousel">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-date">
+                          <div class="div-lesson-time">
+                            <img src="assets/Images/asdad.png" alt="No image">
+                            <h6>30 դաս</h6>
+                          </div>
+                          <div class="div-date-lessons">
+                            <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                            <h6>20․05․2022</h6>
+                          </div>
+                        </div>
+                      </div>
+                      <h4 class="title-price">
+                        30.000 AMD
+                      </h4>
+                      <p class="description-lesson">
+                        HTML & CSS
+                      </p>
+                      <p class="content-description-lesson">
+                        Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                      </p>
+                      <div class="div-button-more">
+                        <button>
+                          <a routerLink="/about-course">
+                            Տեսնել ավելին
+                          </a>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="div-block-1">
+                  <div class="div-image-carousel">
+                    <img src="assets/Images/img1.png" alt="No image">
+                  </div>
+                  <div class="div-texts">
+                    <div class="div-date-blocks-carousel">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-date">
+                          <div class="div-lesson-time">
+                            <img src="assets/Images/asdad.png" alt="No image">
+                            <h6>30 դաս</h6>
+                          </div>
+                          <div class="div-date-lessons">
+                            <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                            <h6>20․05․2022</h6>
+                          </div>
+                        </div>
+                      </div>
+                      <h4 class="title-price">
+                        30.000 AMD
+                      </h4>
+                      <p class="description-lesson">
+                        Ծրագրավորման հիմունքներ
+                      </p>
+                      <p class="content-description-lesson">
+                        Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                      </p>
+                      <div class="div-button-more">
+                        <button>
+                          <a routerLink="/about-course">
+                            Տեսնել ավելին
+                          </a>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="div-block-1">
+                  <div class="div-image-carousel">
+                    <img src="assets/Images/image 1477.png" alt="No image">
+                  </div>
+                  <div class="div-texts">
+                    <div class="div-date-blocks-carousel">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-date">
+                          <div class="div-lesson-time">
+                            <img src="assets/Images/asdad.png" alt="No image">
+                            <h6>30 դաս</h6>
+                          </div>
+                          <div class="div-date-lessons">
+                            <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                            <h6>20․05․2022</h6>
+                          </div>
+                        </div>
+                      </div>
+                      <h4 class="title-price">
+                        30.000 AMD
+                      </h4>
+                      <p class="description-lesson">
+                        Node.js
+                      </p>
+                      <p class="content-description-lesson">
+                        Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                      </p>
+                      <div class="div-button-more">
+                        <button>
+                          <a routerLink="/about-course">
+                            Տեսնել ավելին
+                          </a>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="div-block-1">
+                  <div class="div-image-carousel">
+                    <img src="assets/Images/5a38462fc548b3 1.png" alt="No image">
+                  </div>
+                  <div class="div-texts">
+                    <div class="div-date-blocks-carousel">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-date">
+                          <div class="div-lesson-time">
+                            <img src="assets/Images/asdad.png" alt="No image">
+                            <h6>30 դաս</h6>
+                          </div>
+                          <div class="div-date-lessons">
+                            <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                            <h6>20․05․2022</h6>
+                          </div>
+                        </div>
+                      </div>
+                      <h4 class="title-price">
+                        30.000 AMD
+                      </h4>
+                      <p class="description-lesson">
+                        Angular
+                      </p>
+                      <p class="content-description-lesson">
+                        Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                      </p>
+                      <div class="div-button-more">
+                        <button>
+                          <a routerLink="/about-course">
+                            Տեսնել ավելին
+                          </a>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="div-block-1">
+                  <div class="div-image-carousel">
+                    <img src="assets/Images/kisspng-international-student-study-skills-higher-educatio-college-student-5aeb585235a651 1.png" alt="No image">
+                  </div>
+                  <div class="div-texts">
+                    <div class="div-date-blocks-carousel">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-date">
+                          <div class="div-lesson-time">
+                            <img src="assets/Images/asdad.png" alt="No image">
+                            <h6>30 դաս</h6>
+                          </div>
+                          <div class="div-date-lessons">
+                            <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                            <h6>20․05․2022</h6>
+                          </div>
+                        </div>
+                      </div>
+                      <h4 class="title-price">
+                        30.000 AMD
+                      </h4>
+                      <p class="description-lesson">
+                        MongoDB
+                      </p>
+                      <p class="content-description-lesson">
+                        Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                      </p>
+                      <div class="div-button-more">
+                        <button>
+                          <a routerLink="/about-course">
+                            Տեսնել ավելին
+                          </a>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="div-block-1">
+                  <div class="div-image-carousel">
+                    <img src="assets/Images/img1.png" alt="No image">
+                  </div>
+                  <div class="div-texts">
+                    <div class="div-date-blocks-carousel">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-date">
+                          <div class="div-lesson-time">
+                            <img src="assets/Images/asdad.png" alt="No image">
+                            <h6>30 դաս</h6>
+                          </div>
+                          <div class="div-date-lessons">
+                            <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                            <h6>20․05․2022</h6>
+                          </div>
+                        </div>
+                      </div>
+                      <h4 class="title-price">
+                        30.000 AMD
+                      </h4>
+                      <p class="description-lesson">
+                        MySQL
+                      </p>
+                      <p class="content-description-lesson">
+                        Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                      </p>
+                      <div class="div-button-more">
+                        <button>
+                          <a routerLink="/about-course">
+                            Տեսնել ավելին
+                          </a>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </mat-tab>
+            <mat-tab label="2">
+              <div class="div-content-carousel-lessons">
+              <div class="div-block-1">
+                <div class="div-image-carousel">
+                  <img src="assets/Images/kisspng-act-student-institute-school-education-a-group-of-students-5ae08be49072a2 1asdasdadadasd.png" alt="No image">
+                </div>
+                <div class="div-texts">
+                  <div class="div-date-blocks-carousel">
+                    <div class="div-lesson-date">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-time">
+                          <img src="assets/Images/asdad.png" alt="No image">
+                          <h6>30 դաս</h6>
+                        </div>
+                        <div class="div-date-lessons">
+                          <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                          <h6>20․05․2022</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <h4 class="title-price">
+                      30.000 AMD
+                    </h4>
+                    <p class="description-lesson">
+                      JavaScript FULL STACK COURSE
+                    </p>
+                    <p class="content-description-lesson">
+                      Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                    </p>
+                    <div class="div-button-more">
+                      <button>
+                        <a routerLink="/about-course-javascript">
+                          Տեսնել ավելին
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="div-block-1">
+                <div class="div-image-carousel">
+                  <img src="assets/Images/image 1477.png" alt="No image">
+                </div>
+                <div class="div-texts">
+                  <div class="div-date-blocks-carousel">
+                    <div class="div-lesson-date">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-time">
+                          <img src="assets/Images/asdad.png" alt="No image">
+                          <h6>30 դաս</h6>
+                        </div>
+                        <div class="div-date-lessons">
+                          <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                          <h6>20․05․2022</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <h4 class="title-price">
+                      30.000 AMD
+                    </h4>
+                    <p class="description-lesson">
+                      Angular
+                    </p>
+                    <p class="content-description-lesson">
+                      Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                    </p>
+                    <div class="div-button-more">
+                      <button>
+                        <a routerLink="/about-course">
+                          Տեսնել ավելին
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="div-block-1">
+                <div class="div-image-carousel">
+                  <img src="assets/Images/kisspng-international-student-study-skills-higher-educatio-college-student-5aeb585235a651 1.png" alt="No image">
+                </div>
+                <div class="div-texts">
+                  <div class="div-date-blocks-carousel">
+                    <div class="div-lesson-date">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-time">
+                          <img src="assets/Images/asdad.png" alt="No image">
+                          <h6>30 դաս</h6>
+                        </div>
+                        <div class="div-date-lessons">
+                          <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                          <h6>20․05․2022</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <h4 class="title-price">
+                      30.000 AMD
+                    </h4>
+                    <p class="description-lesson">
+                      MySQL
+                    </p>
+                    <p class="content-description-lesson">
+                      Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                    </p>
+                    <div class="div-button-more">
+                      <button>
+                        <a routerLink="/about-course">
+                          Տեսնել ավելին
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="div-block-1">
+                <div class="div-image-carousel">
+                  <img src="assets/Images/img1.png" alt="No image">
+                </div>
+                <div class="div-texts">
+                  <div class="div-date-blocks-carousel">
+                    <div class="div-lesson-date">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-time">
+                          <img src="assets/Images/asdad.png" alt="No image">
+                          <h6>30 դաս</h6>
+                        </div>
+                        <div class="div-date-lessons">
+                          <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                          <h6>20․05․2022</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <h4 class="title-price">
+                      30.000 AMD
+                    </h4>
+                    <p class="description-lesson">
+                      Ծրագրավորման հիմունքներ
+                    </p>
+                    <p class="content-description-lesson">
+                      Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                    </p>
+                    <div class="div-button-more">
+                      <button>
+                        <a routerLink="/about-course">
+                          Տեսնել ավելին
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="div-block-1">
+                <div class="div-image-carousel">
+                  <img src="assets/Images/img1.png" alt="No image">
+                </div>
+                <div class="div-texts">
+                  <div class="div-date-blocks-carousel">
+                    <div class="div-lesson-date">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-time">
+                          <img src="assets/Images/asdad.png" alt="No image">
+                          <h6>30 դաս</h6>
+                        </div>
+                        <div class="div-date-lessons">
+                          <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                          <h6>20․05․2022</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <h4 class="title-price">
+                      30.000 AMD
+                    </h4>
+                    <p class="description-lesson">
+                      Node.js
+                    </p>
+                    <p class="content-description-lesson">
+                      Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                    </p>
+                    <div class="div-button-more">
+                      <button>
+                        <a routerLink="/about-course">
+                          Տեսնել ավելին
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="div-block-1">
+                <div class="div-image-carousel">
+                  <img src="assets/Images/img1.png" alt="No image">
+                </div>
+                <div class="div-texts">
+                  <div class="div-date-blocks-carousel">
+                    <div class="div-lesson-date">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-time">
+                          <img src="assets/Images/asdad.png" alt="No image">
+                          <h6>30 դաս</h6>
+                        </div>
+                        <div class="div-date-lessons">
+                          <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                          <h6>20․05․2022</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <h4 class="title-price">
+                      30.000 AMD
+                    </h4>
+                    <p class="description-lesson">
+                      MongoDB
+                    </p>
+                    <p class="content-description-lesson">
+                      Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                    </p>
+                    <div class="div-button-more">
+                      <button>
+                        <a routerLink="/about-course">
+                          Տեսնել ավելին
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="div-block-1">
+                <div class="div-image-carousel">
+                  <img src="assets/Images/img1.png" alt="No image">
+                </div>
+                <div class="div-texts">
+                  <div class="div-date-blocks-carousel">
+                    <div class="div-lesson-date">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-time">
+                          <img src="assets/Images/asdad.png" alt="No image">
+                          <h6>30 դաս</h6>
+                        </div>
+                        <div class="div-date-lessons">
+                          <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                          <h6>20․05․2022</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <h4 class="title-price">
+                      30.000 AMD
+                    </h4>
+                    <p class="description-lesson">
+                      HTML & CSS
+                    </p>
+                    <p class="content-description-lesson">
+                      Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                    </p>
+                    <div class="div-button-more">
+                      <button>
+                        <a routerLink="/about-course">
+                          Տեսնել ավելին
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="div-block-1">
+                <div class="div-image-carousel">
+                  <img src="assets/Images/image 1477.png" alt="No image">
+                </div>
+                <div class="div-texts">
+                  <div class="div-date-blocks-carousel">
+                    <div class="div-lesson-date">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-time">
+                          <img src="assets/Images/asdad.png" alt="No image">
+                          <h6>30 դաս</h6>
+                        </div>
+                        <div class="div-date-lessons">
+                          <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                          <h6>20․05․2022</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <h4 class="title-price">
+                      30.000 AMD
+                    </h4>
+                    <p class="description-lesson">
+                      PHP FULL STACK COURSE
+                    </p>
+                    <p class="content-description-lesson">
+                      Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                    </p>
+                    <div class="div-button-more">
+                      <button>
+                        <a routerLink="/about-course-php">
+                          Տեսնել ավելին
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </mat-tab>
+            <mat-tab label="3">
+              <div class="div-content-carousel-lessons">
+              <div class="div-block-1">
+                <div class="div-image-carousel">
+                  <img src="assets/Images/5a38462fc548b3 1.png" alt="No image">
+                </div>
+                <div class="div-texts">
+                  <div class="div-date-blocks-carousel">
+                    <div class="div-lesson-date">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-time">
+                          <img src="assets/Images/asdad.png" alt="No image">
+                          <h6>30 դաս</h6>
+                        </div>
+                        <div class="div-date-lessons">
+                          <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                          <h6>20․05․2022</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <h4 class="title-price">
+                      30.000 AMD
+                    </h4>
+                    <p class="description-lesson">
+                      PHP FULL STACK COURSE
+                    </p>
+                    <p class="content-description-lesson">
+                      Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                    </p>
+                    <div class="div-button-more">
+                      <button>
+                        <a routerLink="/about-course-php">
+                          Տեսնել ավելին
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="div-block-1">
+                <div class="div-image-carousel">
+                  <img src="assets/Images/img1.png" alt="No image">
+                </div>
+                <div class="div-texts">
+                  <div class="div-date-blocks-carousel">
+                    <div class="div-lesson-date">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-time">
+                          <img src="assets/Images/asdad.png" alt="No image">
+                          <h6>30 դաս</h6>
+                        </div>
+                        <div class="div-date-lessons">
+                          <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                          <h6>20․05․2022</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <h4 class="title-price">
+                      30.000 AMD
+                    </h4>
+                    <p class="description-lesson">
+                      JavaScript FULL STACK COURSE
+                    </p>
+                    <p class="content-description-lesson">
+                      Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                    </p>
+                    <div class="div-button-more">
+                      <button>
+                        <a routerLink="/about-course">
+                          Տեսնել ավելին
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="div-block-1">
+                <div class="div-image-carousel">
+                  <img src="assets/Images/image 1477.png" alt="No image">
+                </div>
+                <div class="div-texts">
+                  <div class="div-date-blocks-carousel">
+                    <div class="div-lesson-date">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-time">
+                          <img src="assets/Images/asdad.png" alt="No image">
+                          <h6>30 դաս</h6>
+                        </div>
+                        <div class="div-date-lessons">
+                          <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                          <h6>20․05․2022</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <h4 class="title-price">
+                      30.000 AMD
+                    </h4>
+                    <p class="description-lesson">
+                      HTML & CSS
+                    </p>
+                    <p class="content-description-lesson">
+                      Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                    </p>
+                    <div class="div-button-more">
+                      <button>
+                        <a routerLink="/about-course">
+                          Տեսնել ավելին
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="div-block-1">
+                <div class="div-image-carousel">
+                  <img src="assets/Images/kisspng-international-student-study-skills-higher-educatio-college-student-5aeb585235a651 1.png" alt="No image">
+                </div>
+                <div class="div-texts">
+                  <div class="div-date-blocks-carousel">
+                    <div class="div-lesson-date">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-time">
+                          <img src="assets/Images/asdad.png" alt="No image">
+                          <h6>30 դաս</h6>
+                        </div>
+                        <div class="div-date-lessons">
+                          <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                          <h6>20․05․2022</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <h4 class="title-price">
+                      30.000 AMD
+                    </h4>
+                    <p class="description-lesson">
+                      Ծրագրավորման հիմունքներ
+                    </p>
+                    <p class="content-description-lesson">
+                      Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                    </p>
+                    <div class="div-button-more">
+                      <button>
+                        <a routerLink="/about-course">
+                          Տեսնել ավելին
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="div-block-1">
+                <div class="div-image-carousel">
+                  <img src="assets/Images/img1.png" alt="No image">
+                </div>
+                <div class="div-texts">
+                  <div class="div-date-blocks-carousel">
+                    <div class="div-lesson-date">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-time">
+                          <img src="assets/Images/asdad.png" alt="No image">
+                          <h6>30 դաս</h6>
+                        </div>
+                        <div class="div-date-lessons">
+                          <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                          <h6>20․05․2022</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <h4 class="title-price">
+                      30.000 AMD
+                    </h4>
+                    <p class="description-lesson">
+                      Node.js
+                    </p>
+                    <p class="content-description-lesson">
+                      Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                    </p>
+                    <div class="div-button-more">
+                      <button>
+                        <a routerLink="/about-course">
+                          Տեսնել ավելին
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="div-block-1">
+                <div class="div-image-carousel">
+                  <img src="assets/Images/img1.png" alt="No image">
+                </div>
+                <div class="div-texts">
+                  <div class="div-date-blocks-carousel">
+                    <div class="div-lesson-date">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-time">
+                          <img src="assets/Images/asdad.png" alt="No image">
+                          <h6>30 դաս</h6>
+                        </div>
+                        <div class="div-date-lessons">
+                          <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                          <h6>20․05․2022</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <h4 class="title-price">
+                      30.000 AMD
+                    </h4>
+                    <p class="description-lesson">
+                      Angular
+                    </p>
+                    <p class="content-description-lesson">
+                      Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                    </p>
+                    <div class="div-button-more">
+                      <button>
+                        Տեսնել ավելին
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="div-block-1">
+                <div class="div-image-carousel">
+                  <img src="assets/Images/img1.png" alt="No image">
+                </div>
+                <div class="div-texts">
+                  <div class="div-date-blocks-carousel">
+                    <div class="div-lesson-date">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-time">
+                          <img src="assets/Images/asdad.png" alt="No image">
+                          <h6>30 դաս</h6>
+                        </div>
+                        <div class="div-date-lessons">
+                          <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                          <h6>20․05․2022</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <h4 class="title-price">
+                      30.000 AMD
+                    </h4>
+                    <p class="description-lesson">
+                      MongoDB
+                    </p>
+                    <p class="content-description-lesson">
+                      Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                    </p>
+                    <div class="div-button-more">
+                      <button>
+                        <a routerLink="/about-course">
+                          Տեսնել ավելին
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="div-block-1">
+                <div class="div-image-carousel">
+                  <img src="assets/Images/img1.png" alt="No image">
+                </div>
+                <div class="div-texts">
+                  <div class="div-date-blocks-carousel">
+                    <div class="div-lesson-date">
+                      <div class="div-lesson-date">
+                        <div class="div-lesson-time">
+                          <img src="assets/Images/asdad.png" alt="No image">
+                          <h6>30 դաս</h6>
+                        </div>
+                        <div class="div-date-lessons">
+                          <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                          <h6>20․05․2022</h6>
+                        </div>
+                      </div>
+                    </div>
+                    <h4 class="title-price">
+                      30.000 AMD
+                    </h4>
+                    <p class="description-lesson">
+                      MySQL
+                    </p>
+                    <p class="content-description-lesson">
+                      Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                    </p>
+                    <div class="div-button-more">
+                      <button>
+                        <a routerLink="/about-course">
+                          Տեսնել ավելին
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </mat-tab>
+          </mat-tab-group>
+        </div>
+        <div class="div-blocks-soon">
+          <h2>
+            Շուտով
+          </h2>
+          <div class="div-content-carousel-lessons">
+          <div class="div-block-1">
+            <div class="div-image-carousel">
+              <img src="assets/Images/img1.png" alt="No image">
+            </div>
+            <div class="div-texts">
+              <div class="div-date-blocks-carousel">
+                <div class="div-lesson-date">
+                  <div class="div-lesson-date">
+                    <div class="div-lesson-time">
+                      <img src="assets/Images/asdad.png" alt="No image">
+                      <h6>30 դաս</h6>
+                    </div>
+                    <div class="div-date-lessons">
+                      <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                      <h6>20․05․2022</h6>
+                    </div>
+                  </div>
+                </div>
+                <h4 class="title-price">
+                  30.000 AMD
+                </h4>
+                <p class="description-lesson">
+                  HTML & CSS
+                </p>
+                <p class="content-description-lesson">
+                  Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                </p>
+                <div class="div-button-more">
+                  <button>
+                    <a routerLink="/about-course">
+                      Տեսնել ավելին
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="div-block-1">
+            <div class="div-image-carousel">
+              <img src="assets/Images/image 1477.png" alt="No image">
+            </div>
+            <div class="div-texts">
+              <div class="div-date-blocks-carousel">
+                <div class="div-lesson-date">
+                  <div class="div-lesson-date">
+                    <div class="div-lesson-time">
+                      <img src="assets/Images/asdad.png" alt="No image">
+                      <h6>30 դաս</h6>
+                    </div>
+                    <div class="div-date-lessons">
+                      <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                      <h6>20․05․2022</h6>
+                    </div>
+                  </div>
+                </div>
+                <h4 class="title-price">
+                  30.000 AMD
+                </h4>
+                <p class="description-lesson">
+                  JavaScript FULL STACK COURSE
+                </p>
+                <p class="content-description-lesson">
+                  Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                </p>
+                <div class="div-button-more">
+                  <button>
+                    <a routerLink="/about-course">
+                      Տեսնել ավելին
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="div-block-1">
+            <div class="div-image-carousel">
+              <img src="assets/Images/5a38462fc548b3 1.png" alt="No image">
+            </div>
+            <div class="div-texts">
+              <div class="div-date-blocks-carousel">
+                <div class="div-lesson-date">
+                  <div class="div-lesson-date">
+                    <div class="div-lesson-time">
+                      <img src="assets/Images/asdad.png" alt="No image">
+                      <h6>30 դաս</h6>
+                    </div>
+                    <div class="div-date-lessons">
+                      <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                      <h6>20․05․2022</h6>
+                    </div>
+                  </div>
+                </div>
+                <h4 class="title-price">
+                  30.000 AMD
+                </h4>
+                <p class="description-lesson">
+                  MySQL
+                </p>
+                <p class="content-description-lesson">
+                  Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                </p>
+                <div class="div-button-more">
+                  <button>
+                    <a routerLink="/about-course">
+                      Տեսնել ավելին
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="div-block-1">
+            <div class="div-image-carousel">
+              <img src="assets/Images/kisspng-international-student-study-skills-higher-educatio-college-student-5aeb585235a651 1.png" alt="No image">
+            </div>
+            <div class="div-texts">
+              <div class="div-date-blocks-carousel">
+                <div class="div-lesson-date">
+                  <div class="div-lesson-date">
+                    <div class="div-lesson-time">
+                      <img src="assets/Images/asdad.png" alt="No image">
+                      <h6>30 դաս</h6>
+                    </div>
+                    <div class="div-date-lessons">
+                      <img src="assets/Images/akar-icons_calendar.png" alt="No image">
+                      <h6>20․05․2022</h6>
+                    </div>
+                  </div>
+                </div>
+                <h4 class="title-price">
+                  30.000 AMD
+                </h4>
+                <p class="description-lesson">
+                  Node.js
+                </p>
+                <p class="content-description-lesson">
+                  Միացեք մեր դասընթացին և սովորեք ամենապահանջված և արդի մասագիտություն
+                </p>
+                <div class="div-button-more">
+                  <button>
+                    <a routerLink="/about-course">
+                      Տեսնել ավելին
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,303 @@
+.main{
+  width: 100%;
+}
+.containerr{
+  width: 1380px;
+  margin: 0 auto;
+}
+ul{
+  padding: 0;
+}
+.div-content-advantages-page{
+  background-image: url("src/assets/Images/Layer 1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 220px 0 130px;
+}
+.title-our-advantages h2{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #06295E;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  margin: 0;
+}
+.div-test-advantages-page{
+  display: flex;
+  margin: 85px 0 76px;
+  justify-content: space-between;
+  align-items: center;
+}
+.div-texts-test-advantages p{
+  margin: 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #000000;
+  width: 80%;
+
+}
+.div-button-go-test{
+  margin-top: 81px;
+}
+.div-button-go-test button{
+  background: #42975B;
+  border-radius: 0 20px;
+  border: none;
+  padding: 13px 32px;
+}
+.div-button-go-test button a{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #FCFCFC;
+}
+.content-ornagization-course{
+  width: 100%;
+}
+.content-ornagization-course h2{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #000000;
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+.div-description-organization-course{
+  width: 84%;
+  margin: 0 auto 54px;
+}
+.div-description-organization-course h5{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  margin: 0;
+  color: #000000;
+}
+.li-organization-course{
+  list-style-type: none;
+  margin-top: 15px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: #000000;
+
+}
+.div-images-blocks-organization-course{
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 97%;
+  margin: 0 auto 100px;
+}
+
+.div-image-one img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.div-image-one, .div-small-images{
+  width: 48%;
+}
+.div-row-one-images, .div-row-two-images{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.div-row-one-images{
+  margin-bottom: 15px;
+}
+.div-row-one-images img:first-child{
+  margin-right: 14px;
+}
+.div-row-two-images img:first-child{
+  margin-right: 14px;
+
+}
+.div-content-organization-training{
+  width: 100%;
+  margin-bottom: 100px;
+}
+.div-block-organization-training h2{
+  margin: 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #000000;
+}
+.div-block-organization-training p{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 50px 0;
+  letter-spacing: 1px;
+  color: #000000;
+}
+.div-images-organization-training{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.div-images-organization-training div:first-child{
+  width: 60%;
+}
+.div-images-organization-training div:last-child{
+  width: 38%;
+}
+.div-images-organization-training div img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media screen and (max-width: 1400px){
+  .containerr{
+    width: 1200px;
+  }
+}
+@media screen and (max-width: 1280px){
+  .containerr{
+    width: 980px;
+  }
+  .div-images-blocks-organization-course{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .div-image-one{
+    width: 70%;
+  }
+  .div-small-images{
+    width: 70%;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 1000px){
+  .containerr{
+    width: 780px;
+  }
+  .div-content-advantages-page{
+    padding: 100px 0 50px;
+  }
+  .div-image-one{
+    width: 80%;
+  }
+  .div-small-images{
+    width: 80%;
+  }
+  .div-description-organization-course{
+    width: 100%;
+  }
+  .div-row-one-images div, .div-row-two-images div{
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 800px){
+  .containerr{
+    width: 95%;
+  }
+  .div-img-advantages img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .div-test-advantages-page{
+    flex-direction: column-reverse;
+  }
+  .div-texts-test-advantages{
+    margin-top: 80px;
+  }
+  .div-button-go-test{
+    margin-top: 30px;
+  }
+  .div-image-one, .div-small-images{
+    width: 98%;
+  }
+
+}
+@media screen and (max-width: 700px){
+  .containerr{
+    width: 95%;
+  }
+  .div-small-images{
+    display: none;
+  }
+  .div-texts-test-advantages p{
+    width: 100%;
+    font-size: 16px;
+  }
+  .div-button-go-test button{
+    background: #42975B;
+    border-radius: 0 10px;
+    padding: 8px 18px;
+  }
+  .div-button-go-test button a{
+    font-size: 18px;
+  }
+  .content-ornagization-course  h2{
+    font-size: 18px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 500px){
+  .div-content-advantages-page{
+    padding: 150px 0 60px;
+  }
+  .div-test-advantages-page{
+    margin-top: 25px;
+  }
+  .li-organization-course{
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .div-description-organization-course h5 {
+    font-size: 15px;
+    line-height: 25px;
+
+  }
+  .content-ornagization-course h2{
+    margin: 10px 0 20px;
+  }
+  .div-block-organization-training h2 {
+    font-size: 20px;
+    line-height: 20px;
+
+  }
+  .div-block-organization-training p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 25px 0;
+    letter-spacing: 1px;
+    color: #000000;
+  }
+}

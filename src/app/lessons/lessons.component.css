@@ -1,0 +1,473 @@
+.main{
+  width: 100%;
+}
+.content-lessons-page{
+  width: 100%;
+  background-image: url("src/assets/Images/Layer 1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.containerr{
+  width: 1380px;
+  margin: 0 auto;
+}
+.div-content-lessons-page-header{
+  width: 100%;
+}
+.div-title-lessons{
+  padding: 250px 0 127px;
+}
+.div-title-lessons h2{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 0;
+  color: #06295E;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.div-filter-timer-page-lessons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+.div-filter{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+.div-timer{
+  cursor: pointer;
+}
+.div-filter img{
+  margin-left: 13px;
+}
+.div-filter span, .div-timer span{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: right;
+  letter-spacing: 1px;
+  color: #101010;
+
+}
+.btn-filter{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+  color: #000000;
+
+}
+::ng-deep .mat-menu-panel {
+  max-width: 350px !important;
+}
+::ng-deep .modal-dialog{
+
+  margin-left: 300px;
+  margin-right: 546px;
+}
+.div-containerr-modal{
+  margin: 30px;
+}
+.div-icon-close {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 20px;
+}
+.div-icon-close button{
+  margin-right: 19px;
+}
+.div-icon-close h2{
+  margin: 0 350px 0 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+::ng-deep .mat-calendar-body-selected{
+  background-color:  #42975B;
+}
+.div-calendar-modal-timer{
+  width: 30%;
+}
+.div-texts-modal-timer{
+  width: 65%;
+}
+.div-texts-modal-timer p{
+  font-family: 'Segoe UI';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+.div-buttons-modal-calendar{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 12px;
+}
+.div-buttons-modal-calendar button:first-child{
+  margin-right: 6px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #8A8A8A;
+  background: #F8F8F8;
+  border-radius: 9px;
+  border: none;
+  padding: 4px 13px;
+
+}
+.div-buttons-modal-calendar button:last-child{
+  background: #06295E;
+  border-radius: 9px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  border: none;
+  padding: 7px 13px;
+}
+::ng-deep .modal-content {
+  width: 1000px !important;
+  margin: 0 auto !important;
+}
+.div-content-modal-timer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+}
+#exampleModal{
+  width: 1400px !important;
+}
+.div-description-timer{
+  background: #DEDEDE;
+  border-radius: 12px;
+  padding: 27px 52px 55px 52px;
+}
+.div-description-timer span{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  color: #000000;
+}
+.div-description-timer span:first-child{
+  margin-bottom:  22px;
+  display: block;
+}
+.div-blocks-lessons{
+  margin-top: 50px;
+}
+.div-blocks-lessons ::ng-deep .mat-tab-label{
+  min-width: 0!important;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #06295E;
+  opacity: 1!important;
+}
+.div-blocks-lessons ::ng-deep .mat-tab-labels {
+  display: flex;
+  justify-content: flex-end;
+  opacity: 1!important;
+}
+.div-blocks-lessons ::ng-deep .mat-tab-label-active{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #42975B;
+}
+ ::ng-deep .mat-tab-group-inverted-header .mat-tab-header {
+  border: none !important;
+}
+.div-content-carousel-lessons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+ }
+.div-block-lessons{
+  background: #FFFFFF;
+  border: 1px solid #06295E;
+  border-radius: 0px 20px;
+}
+.div-block-1 {
+  padding: 27px 27px 24px 27px;
+  background: #FFFFFF;
+  border: 1px solid #06295E;
+  border-radius: 0 20px;
+  width: 304px;
+  margin-bottom: 25px;
+}
+.div-lesson-date{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.div-image-carousel {
+  padding: 4px 66px;
+  border: 1px solid #000000;
+  border-radius: 0 20px;
+}
+
+.div-texts {
+  margin: 10px 0;
+}
+
+.div-lesson-time{
+  margin-right: 33px;
+}
+
+.div-lesson-time img, .div-date-lessons img {
+  margin-right: 10px;
+}
+
+.div-lesson-time, .div-date-lessons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.div-lesson-time h6, .div-date-lessons h6 {
+  margin: 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+.title-price {
+  margin: 10px 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #42975B;
+}
+.div-image-carousel img{
+  height: 155px;
+  object-fit: cover;
+}
+.description-lesson {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 30px;
+  margin: 0 0 10px;
+  letter-spacing: 1px;
+  color: #06295E;
+}
+
+.content-description-lesson {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 0 10px;
+  letter-spacing: 1px;
+  color: #101010;
+
+}
+.div-button-more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-button-more button{
+  border: 1px solid #42975B;
+  border-radius: 0 20px;
+  padding: 15px 14px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #42975B;
+  background-color: white;
+}
+.div-button-more button a{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #42975B;
+  text-decoration: none;
+}
+.div-blocks-soon{
+  margin-bottom: 50px;
+}
+.div-blocks-soon h2{
+  margin: 100px 0 50px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #101010;
+}
+
+::ng-deep .mat-tab-group.mat-primary .mat-ink-bar{
+  display: none;
+}
+@media screen  and (max-width: 1400px){
+  .containerr{
+    width: 1180px;
+
+  }
+  .modal-content {
+    margin-left: -20px !important;
+    width: 156% !important;
+  }
+
+}
+@media screen  and (max-width: 1250px){
+  .containerr{
+    width: 980px;
+
+  }
+  .div-title-lessons{
+    padding: 200px 0 127px;
+  }
+    .modal-content {
+      margin-left: -139px !important;
+      width: 156% !important;
+    }
+}
+@media screen  and (max-width: 1000px){
+  .containerr{
+    width: 780px;
+  }
+  .div-title-lessons{
+    padding: 150px 0 50px;
+  }
+  .div-filter-timer-page-lessons{
+    margin: 60px;
+  }
+  .modal-content {
+    margin-left: -245px !important;
+    width: 146% !important;
+  }
+}
+@media screen  and (max-width: 800px){
+  .containerr{
+    width: 96%;
+  }
+  .div-title-lessons{
+    padding: 100px 0 80px;
+  }
+  .div-block-1:nth-child(odd){
+    margin-right: 10px;
+  }
+  .div-filter-timer-page-lessons{
+    margin: 40px 0;
+  }
+  .btn-filter{
+    font-size: 16px;
+    line-height: 14px;
+  }
+  ::ng-deep .mat-menu-item{
+    height: 30px !important;
+  }
+  .modal-content {
+    margin-left: -270px !important;
+    width: 146% !important;
+  }
+}
+@media screen  and (max-width: 650px){
+  .containerr{
+    width: 96%;
+  }
+  .content-lessons-page{
+    background-position: 0px 0px;
+  }
+  .div-title-lessons{
+    padding: 80px 0 80px;
+  }
+  .div-block-1{
+    width: 400px;
+  }
+  .div-content-carousel-lessons{
+    justify-content: center;
+    align-items: center;
+  }
+  .div-block-1:nth-child(odd){
+    margin-right: 0;
+  }
+
+
+}
+
+@media screen  and (max-width: 450px){
+  .containerr{
+    width: 96%;
+  }
+
+  .div-block-1{
+    width: 300px;
+  }
+  .div-filter span, .div-timer  span{
+    font-size: 15px;
+  }
+  .div-title-lessons{
+    padding: 150px 0 20px;
+  }
+  .div-filter-timer-page-lessons{
+    margin: 20px 0;
+  }
+}
+@media screen  and (max-width: 350px){
+  .containerr{
+    width: 96%;
+  }
+  .div-title-lessons{
+    padding: 100px 0 40px;
+  }
+  .div-block-1{
+    width: 300px;
+  }
+
+}
