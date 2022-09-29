@@ -880,6 +880,9 @@ ul{
   align-items: center;
   margin: 0 0 45px;
 }
+.div-img-stars img:nth-child(-n+4){
+  margin-right: 12px;
+}
 .div-desciption-stutend p{
   font-family: 'Segoe UI';
   font-style: normal;

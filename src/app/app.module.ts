@@ -30,14 +30,12 @@ import {RouterModule, Routes} from "@angular/router";
 import { HomeComponent } from './home/home.component';
 import { LessonsComponent } from './lessons/lessons.component';
 import { RegistrationPageComponent } from './registration-page/registration-page.component';
-import { BlueHeaderComponent } from './blue-header/blue-header.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import {AdvantagesComponent} from "./advantages/advantages.component";
 import { AboutUsComponent } from './about-us/about-us.component';
 import {CarouselModule} from "ngx-bootstrap/carousel";
 import { AboutCourseJavascriptComponent } from './about-course-javascript/about-course-javascript.component';
 import { AboutCoursePhpComponent } from './about-course-php/about-course-php.component';
-
 const route:Routes = [
   {
     path: "",
@@ -88,7 +86,6 @@ const route:Routes = [
     HomeComponent,
     LessonsComponent,
     RegistrationPageComponent,
-    BlueHeaderComponent,
     LoginPageComponent,
     AdvantagesComponent,
     AboutUsComponent,

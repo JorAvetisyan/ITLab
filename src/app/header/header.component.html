@@ -1,9 +1,10 @@
-<div class="main">
+<div class="main" [ngClass]="{'changeBgColor': style === 'blue'}">
   <div class="containerr">
     <div class="content-header">
       <div class="logo">
         <a routerLink="/home">
-          <img src="assets/Images/Сгруппировать 78 (2) 1.png" alt="No image">
+          <img *ngIf="style === '' " src="assets/Images/Сгруппировать 78 (2) 1.png" alt="No image">
+          <img *ngIf="style === 'blue' " src="assets/Images/blueLogo.png" alt="No image">
         </a>
       </div>
       <div class="menu">
@@ -43,28 +44,28 @@
         </div>
         <ul class="ul-menu">
           <li class="li_menu">
-            <a routerLink="/home" class="link-menu" routerLinkActive="active">
+            <a routerLink="/home" class="link-menu" routerLinkActive="active" [ngClass]="{'changeColorLinks': style === 'blue'}">
               Գլխավոր
             </a>
           </li>
           <li class="li_menu">
-            <a routerLink="/about-us" class="link-menu" routerLinkActive="active">
+            <a routerLink="/about-us" class="link-menu" routerLinkActive="active" [ngClass]="{'changeColorLinks': style === 'blue'}">
               Մեր մասին
             </a>
           </li>
           <li class="li_menu">
-            <a routerLink="/lessons" class="link-menu" routerLinkActive="active">
+            <a routerLink="/lessons" class="link-menu" routerLinkActive="active" [ngClass]="{'changeColorLinks': style === 'blue'}">
               Դասընթացներ
             </a>
           </li>
           <li class="li_menu">
-            <a href="#contact-us" class="link-menu" routerLinkActive="active">
+            <a href="#contact-us" class="link-menu" routerLinkActive="active" [ngClass]="{'changeColorLinks': style === 'blue'}">
               Կապ
             </a>
           </li>
           <li class="li_menu">
-            <button class="button-reg">
-              <a routerLink="/registration-page" class="link-menu">
+            <button class="button-reg" [ngClass]="{'changeButton': style === 'blue'}">
+              <a routerLink="/registration-page" class="link-menu" [ngClass]="{'changeColorLinks': style === 'blue'}">
                 Գրանցվել
               </a>
             </button>

@@ -4,6 +4,9 @@
   position: absolute;
   top: 0;
 }
+.changeBgColor{
+  background-color: #06295E;
+}
 .containerr{
   width: 1380px;
   margin: 0 auto;
@@ -52,6 +55,19 @@
   line-height: 30px;
   letter-spacing: 1px;
   color: white !important;
+}
+.changeColorLinks{
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #FCFCFC !important;
+}
+.changeButton{
+  background-color: #42975B !important;
 }
 .active{
   border-bottom: 2px solid #06295E;

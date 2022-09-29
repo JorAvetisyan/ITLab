@@ -1,4 +1,3 @@
-<app-header></app-header>
 <div class="main">
   <div class="content-home-page-description">
     <div class="containerr">
@@ -695,7 +694,7 @@
                Ուսանող
              </p>
              <div class="div-img-stars">
-               <img src="assets/Images/stars.png" alt="No image">
+               <img src="{{item.src}}" alt="No image" *ngFor="let item of stars">
              </div>
              <div class="div-desciption-stutend">
                <p>
@@ -716,7 +715,7 @@
                Ուսանող
              </p>
              <div class="div-img-stars">
-               <img src="assets/Images/stars.png" alt="No image">
+               <img src="{{item.src}}" alt="No image" *ngFor="let item of stars">
              </div>
              <div class="div-desciption-stutend">
                <p>
@@ -737,7 +736,7 @@
                Պրակտիկանտ
              </p>
              <div class="div-img-stars">
-               <img src="assets/Images/stars.png" alt="No image">
+               <img src="{{item.src}}" alt="No image" *ngFor="let item of stars">
              </div>
              <div class="div-desciption-stutend">
                <p>
@@ -933,4 +932,3 @@
     </div>
   </div>
 </div>
-<app-footer></app-footer>
